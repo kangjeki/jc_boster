@@ -1,0 +1,28 @@
+<h2>Button</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn">Standard</button>
+		<button class="btn btn-primary">Primary</button>
+		<button class="btn btn-secondary">Secondary</button>
+		<button class="btn btn-info">Info</button>
+		<button class="btn btn-success">Success</button>
+		<button class="btn btn-danger">Danger</button>
+		<button class="btn btn-warning">Warning</button>
+		<button class="btn btn-dark">Dark</button>
+		<button class="btn btn-light">Light</button>
+	</div>
+</div>
+<div class="code-block">
+	<a class="code-copy">Copy</a>
+	<code>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn"</span><span class="cb">&gt;</span>Standard<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-primary"</span><span class="cb">&gt;</span>Primary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-secondary"</span><span class="cb">&gt;</span>Secondary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Info<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-success"</span><span class="cb">&gt;</span>Success<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-danger"</span><span class="cb">&gt;</span>Danger<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-warning"</span><span class="cb">&gt;</span>Warning<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-dark"</span><span class="cb">&gt;</span>Dark<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-light"</span><span class="cb">&gt;</span>Light<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+	</code>
+</div>

@@ -1,0 +1,85 @@
+<h1>Layout</h1>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 50px;">
+		<div class="app">
+			<div class="header" style="height: 50px; background: #999;">
+				header block
+			</div>
+			<div class="container" style="height:200px; background: #ddd">
+				container block
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="code-block">
+	<a class="code-copy" id="code-copy">Copy</a>
+	<code>
+	<span class="cb"><</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"app"</span><span class="cb">></span><br>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"header"</span><span class="cb">></span><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;header block..<br>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">><br></span>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"container"</span><span class="cb">></span><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;content block..<br>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">><br></span>
+	<span class="cb"><</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">></span><br>
+	</code>
+</div>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="note note-info">
+			# Untuk Mode Header Fixed top gunakan attribute <b>mode="fixed"</b>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"app"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"header"</span><span class="cl"> mode=</span><span class="co">"fixed"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;header block..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"container"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;content block..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+<h2>Contoh dengan sidebar</h2>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 50px;">
+		<div class="app">
+			<div class="header" style="height: 50px; background: #999;">
+				header block
+			</div>
+			<div class="container" style="height:200px; background: #ddd">
+				<div class="row">
+					<div class="col-2" style="height:200px; background: #229756">
+						block sidebar..<br>
+					</div>
+					<div class="col-10" style="height:200px; background: #27469F">
+						block content ..<br>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="code-block">
+	<a class="code-copy">Copy</a>
+	<code>
+		<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"app"</span><span class="cb">&gt;</span><br>
+		&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"header"</span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;header block..<br>
+		&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"container"</span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"row"</span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-2"</span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;block sidebar..<br>
+		&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-10"</span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;block content..<br>
+		&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span><span class="cb">&gt;</span><br>
+	</code>
+</div>

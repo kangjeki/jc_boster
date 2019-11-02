@@ -1,0 +1,16 @@
+<h2>Slide</h2>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 50px;">
+		<div class="slide-pack">
+			<div class="slide-node">
+				<img src="img/img_slide/2.jpg">
+			</div>
+			<div class="slide-node">
+				<img src="img/img_slide/3.jpg">
+			</div>
+			<div class="slide-node">
+				<img src="img/img_slide/4.jpg">
+			</div>
+		</div>	
+	</div>
+</div>

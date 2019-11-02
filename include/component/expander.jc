@@ -1,0 +1,23 @@
+<h2>Expand dan Accordion</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-primary expand" expand-target="#contoh">Sample Expand</button>
+		<button class="btn btn-primary expand" expand-target="#contoh">Sample Expand</button>
+		<div class="expand-group" id="contoh">
+			<div class="alert alert-warning">
+				*Ini Adalah Expand Hide Show <br>
+				*Web Component Example <br>
+				*Mudah dan Simple
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-primary expand"</span><span class="cl"> expand-target=</span><span class="co">"#contoh"</span><span class="cb">&gt;</span>Sample Expand<span class="cb">&lt;</span><span class="cb">/button</span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"expand-group"</span><span class="cl"> id=</span><span class="co">"contoh"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;*Ini Adalah Expand Hide Show
+<br>&nbsp;&nbsp;*Web Component Example
+<br>&nbsp;&nbsp;*Mudah dan Simple
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb">/div</span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb">/div</span></span><span class="cb">&gt;</span></code></div>

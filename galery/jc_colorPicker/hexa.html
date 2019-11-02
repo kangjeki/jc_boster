@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hexa Color Convert</title>
+	<style type="text/css">
+	</style>
+	<script src="js/hexa_converter.js"></script>	
+</head>
+<body>
+
+<input id="inc" type="color" name="">
+<input type="text" id="out" name="">
+<script>
+	let inc = document.querySelector('#inc');
+	inc.addEventListener('change', () => {
+		document.body.style.background = inc.value;
+		document.querySelector('#out').value = inc.value;
+		//console.log(inc.value);
+		//let hex = new Hexa();
+	});
+</script>
+
+</body>
+</html>

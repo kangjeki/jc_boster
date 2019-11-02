@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JC Color</title>
+	<style type="text/css">
+		body {
+			 -webkit-touch-callout: none;
+		    -webkit-user-select: none;
+		    -khtml-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		}
+		#jc_colorPicker {
+			/* CSS untuk myPicker*/
+			position: fixed;
+			top: 100px;
+			left: 50px;
+		}
+	</style>
+	<script src="js/jc_colorPicker-v.0.2.js"></script>	
+</head>
+<body>
+<input type="color" name="">
+<button onclick="myStart();">show</button>
+<button onclick="myStop()">hide</button>
+
+<div id="myDiv"></div>
+
+<script>
+
+	let myDiv 	= document.querySelector('#myDiv');
+	
+	let myPicker = new JCpicker({width: 250, height: 250}, myDiv, myRes, 'hex', false);
+
+	function myRes(ev) {
+		console.log(ev);
+		document.body.style.background = ev; // out color response
+	}
+
+	function myStart() {
+		myPicker.on();
+	}
+
+	function myStop() {
+		myPicker.off();
+	}
+
+</script>
+
+</body>
+</html>
